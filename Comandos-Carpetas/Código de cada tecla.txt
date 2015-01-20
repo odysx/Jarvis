@@ -44,14 +44,13 @@ NO EXISTE ATAJO PARA LA TECLA "WINDOWS"
 **Dos teclas presionadas juntas van entre paréntesis  (tecla tecla)
 una tecla (ejemplo con tab) presionada cinco veces  "{tab 5}"**
 
-                                 ** el script que simula la pulsación:**
+** el script que simula la pulsación:**
 
 
 Set WshShell = WScript.CreateObject("WScript.Shell")
 Wshshell.SendKeys "entre estas dos comillas y sin espacio, se mete el comando"
 
-                 
-                   **Esto es un ejemplo de pulsación  tecla tab: quedaría así:**
+**Esto es un ejemplo de pulsación  tecla tab: quedaría así:**
 
 Set WshShell = WScript.CreateObject("WScript.Shell")
 Wshshell.SendKeys "{tab}"
